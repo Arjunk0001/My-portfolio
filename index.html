@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun Kushwaha Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <img src="images/pasport img.jpg">
+    <div class="container">
+      <h1 class="logo">Arjun Kushwaha</h1>
+      <nav>
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm Arjun Kushwaha</h1>
+        <p>Developer | Innovator | Creator</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+        <div class="media">
+          <a href="#"><img src="images/face.svg"></a>
+          <a href="#"><img src="images/x.svg"></a>
+          <a href="#"><img src="images/youtude.svg"></a>
+          <a href="https://www.instagram.com/arjunkushwaha1000?igsh=MWt1Y3Z2amY0eW00Zw=="><img src="images/instagram.svg"></a>
+      </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/developer.png" alt="Arjun Kuswaha">
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skill">
+        <label>Python</label>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 50%;"></div>
+        </div>
+      </div>
+      
+      <div class="skill">
+        <label>JavaScript</label>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 30%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <label>HTML & CSS</label>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 90%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm Arjun Kushwaha, a passionate B.Tech student with expertise in Python, JavaScript, and content creation. I’m driven by innovation and committed to delivering exceptional results through my projects.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+            <a href="home.html">
+          <h3>Portfolio Website</h3>
+          <p>A modern, responsive portfolio to showcase my skills.</p>
+        </a></div>
+        <div class="project-card">
+          <a href="My Projects/Fitness Chat bot/index.html">
+          <h3>AI Fitness Website</h3>
+          <p>A fitness website usin HTML, CSS and JavaScript.</p>
+          </a></div>
+        <div class="project-card">
+          <a href="My Projects/E-commerce/Arjun kushwaha/Home.html">
+            <h3>E-Commerce Website</h3>
+            <p>A Affliate E-commerce website using HTML, CSS and JavaScript.</p>
+          </a></div>
+          <div class="project-card">
+            <a href="My Projects/python projects/OTP generator/">
+            <h3>OTP Generator</h3>
+            <p>A random OTP Generator using Python.</p>
+          </a></div>
+          <div class="project-card">
+            <a href="My Projects/Sarkari Schimes/index.html">
+            <h3>Result checker website</h3>
+            <p>A Result checker website using HTML, CSS and JavaScript</p>
+          </a></div>
+        <div class="project-card">
+          <a href="My Projects/funny login page.html">
+          <h3>Funny Login Page</h3>
+          <p>A funny login page when user click submit btn without fill form then move btn left to right</p>
+          </a> </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to collaborate or have questions, feel free to reach out!</p>
+      <a href="mailto:arjunkushwaha3510@gmail.com" class="btn">Email Me</a>
+    </div>
+    <div class="foot-media">
+      <a href="#"><img src="images/face.svg"></a>
+      <a href="#"><img src="images/x.svg"></a>
+      <a href="#"><img src="images/youtude.svg"></a>
+      <a href="https://www.instagram.com/arjunkushwaha1000?igsh=MWt1Y3Z2amY0eW00Zw=="><img src="images/instagram.svg"></a>
+    </div>
+  </section>
+  <button onclick="gototop()"><img src="images/top.svg"></button>
+  <script>
+    window.onscroll=function display(){
+        if(document.documentElement.scrollTop>200 || document.body.scrollTop>200){
+            document.querySelector("button").style.display="block"
+        }
+        else{
+             document.querySelector("button").style.display="none"
+        }}
+    function gototop(){
+         window.scrollTo({top:0,"behavior":"smooth"})
+        // window.scrollBy({top:-200,"behavior":"smooth"})
+    }
+    </script>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Arjun Kushwaha. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
